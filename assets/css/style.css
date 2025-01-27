@@ -914,9 +914,12 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 }
 
 .portfolio .col-sm-5 {
+    display: flex;
+    justify-content: center;   /* Centers the images horizontally */
+    align-items: flex-start;       /* Vertically aligns the images */
     height: 20%;
-    box-sizing: border-box;
     width: 100%;
+    box-sizing: border-box;
 }
 
 .profiles {
